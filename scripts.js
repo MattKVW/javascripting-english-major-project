@@ -1,1 +1,1 @@
-alert("scripts.js has loaded!");
+alert("scripts.js has!");
