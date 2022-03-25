@@ -18,4 +18,14 @@ let bobstCoords;
 bobstCoords = L.latLng(40.729444, -73.997222);
 firstMap.panTo(bobstCoords);
 
- 
+let washingtonSquarePark, washingtonSquareParkMarker;
+washingtonSquarePark = L.latLng(40.730833, -73.9975);
+washingtonSquareParkMarker = L.marker(washingtonSquarePark).addTo(firstMap);
+
+let circle;
+circle = L.circle(washingtonSquarePark, {radius: 100,
+                                         color: "#859900",
+                                         fillColor: "#cb4b16",
+                                         opacity: 0.9,
+                                         fillOpacity: 0.25}
+          ).addTo(firstMap);
