@@ -18,6 +18,18 @@ let washingtonSquarePark, washingtonSquareParkMarker;
 washingtonSquarePark = L.latLng(40.730833, -73.9975);
 washingtonSquareParkMarker = L.marker(washingtonSquarePark).addTo(firstMap);
 
+let test1, testMarker1;
+test1 = L.latLng(40.529444, -73.957222);
+testMarker1 = L.marker(test1).addTo(firstMap);
+
+let test2, testMarker2;
+test2 = L.latLng(40.129444, -74.333333);
+testMarker2 = L.marker(test2).addTo(firstMap);
+
+let test3, testMarker3;
+test3 = L.latLng(41.729444, -72.997222);
+testMarker3 = L.marker(test3).addTo(firstMap);
+
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
